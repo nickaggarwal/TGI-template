@@ -3,7 +3,7 @@
 This guide demonstrates how to import a Llama-2 model to the Inferless platform. We'll be using Text Generation Inference (TGI) and import through Dockerfile for this process.
 
 ## Quick Start
-Here is a quick start to help you get up and running with this template on Inferless.
+Here is a quick guide to help you get started and running Llama-2 using TGI on Inferless.
 
 ### Fork the Repository
 Get started by forking the repository. You can do this by clicking on the fork button in the top right corner of the repository page.
