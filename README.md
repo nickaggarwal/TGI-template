@@ -36,6 +36,8 @@ Enter the `Docker File path`
 /Dockerfile
 ```
 
+Then choose the type of machine, and specify the minimum and maximum number of replicas for deploying your model.
+
 Please note that you need to enter the Hugging face access token as `HF_TOKEN` in the `Environment Variables` section.
 Get your Hugging face access token from [here](https://huggingface.co/settings/tokens).
 ```
