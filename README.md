@@ -1,11 +1,6 @@
-# Import a Llama-2 Model with Inferless using docker
+# Importing a Llama-2 Model on Inferless Using TGI and Docker
 
-## Prerequisites
-- **Git**. You would need git installed on your system if you wish to customize the repo after forking.
-- **Python>=3.8**. You would need Python to customize the code in the app.py according to your needs.
-- **Docker**. You would docker to build and test the container locally
-- **Curl**. You would need Curl if you want to make API calls from the terminal itself.
-
+This guide demonstrates how to import a Llama-2 model to the Inferless platform. We'll be using Text Generation Inference (TGI) and import through Dockerfile for this process.
 
 ## Quick Start
 Here is a quick start to help you get up and running with this template on Inferless.
