@@ -1,9 +1,6 @@
 # Use the official TGI image as the base image
 FROM ghcr.io/huggingface/text-generation-inference:latest
 
-# Set the working directory
-RUN pip3 install fastapi==0.101.0 text-generation==0.7.0 pydantic==2.1.1 pydantic_core==2.4.0 urllib3==2.0.4 uvicorn==0.23.2 
-
 WORKDIR /app
 
 # Copy the application code and start the script
