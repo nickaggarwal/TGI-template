@@ -18,7 +18,7 @@ In the providers list, select `Dockerfile` as the provider. Then, enter the URL 
 Enter the `Health API`
 
 ```
-/healthcheck
+/health
 ```
 
 Enter the `Infer API`
@@ -28,7 +28,7 @@ Enter the `Infer API`
 
 Enter the `Port`
 ```
-7000
+3000
 ```
 
 Enter the `Docker File path`
