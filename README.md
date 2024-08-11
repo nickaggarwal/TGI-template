@@ -1,6 +1,6 @@
-# Importing a Llama-2 Model on Inferless Using TGI and Docker
+# Importing amy model with TGI on Inferless Using and Dockerfile
 
-This guide demonstrates how to import a Llama-2 model to the Inferless platform. We'll be using Text Generation Inference (TGI) and import through Dockerfile for this process.
+This guide demonstrates how to import a Llama-2 model to the Inferless platform. We'll use Text Generation Inference (TGI) and import through Dockerfile for this process.
 
 ## Quick Start
 Here is a quick guide to help you get started and running Llama-2 using TGI on Inferless.
@@ -28,7 +28,7 @@ Enter the `Infer API`
 
 Enter the `Port`
 ```
-3000
+8080
 ```
 
 Enter the `Docker File path`
@@ -40,12 +40,14 @@ Then choose the type of machine, and specify the minimum and maximum number of r
 
 Please note that you need to enter the Hugging face access token as `HF_TOKEN` in the `Environment Variables` section.
 Get your Hugging face access token from [here](https://huggingface.co/settings/tokens).
+
+
 ```
 KEY HF_TOKEN=<YOUR_HUGGINGFACE_ACCESS_TOKEN>
 KEY NUM_SHARD=1
 KEY MAX_INPUT_LENGTH=2048
 KEY MAX_TOTAL_TOKENS=4096
-KEY PORT=3000
+KEY MODEL_ID="meta-llama/Llama-2-7b-chat-hf"
 
 ```
 Once you click `Continue`, you will be able to review the details added for the model. If you would like to make any changes, you can go back and make the changes.
