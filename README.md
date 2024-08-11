@@ -41,8 +41,12 @@ Then choose the type of machine, and specify the minimum and maximum number of r
 Please note that you need to enter the Hugging face access token as `HF_TOKEN` in the `Environment Variables` section.
 Get your Hugging face access token from [here](https://huggingface.co/settings/tokens).
 ```
-KEY: HF_TOKEN
-VALUE: <YOUR_HUGGINGFACE_ACCESS_TOKEN>
+KEY HF_TOKEN=<YOUR_HUGGINGFACE_ACCESS_TOKEN>
+KEY NUM_SHARD=1
+KEY MAX_INPUT_LENGTH=2048
+KEY MAX_TOTAL_TOKENS=4096
+KEY PORT=3000
+
 ```
 Once you click `Continue`, you will be able to review the details added for the model. If you would like to make any changes, you can go back and make the changes.
 
